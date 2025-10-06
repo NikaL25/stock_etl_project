@@ -1,4 +1,9 @@
-API_KEY = "1C6S64AOFPG0YP9C"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
 SYMBOLS = ["AAPL", "GOOG", "MSFT"]
 RAW_DATA_DIR = "raw_data"
 
