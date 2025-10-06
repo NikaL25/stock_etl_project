@@ -27,21 +27,6 @@ Built as part of the **Batch 9 Data Engineering Intern Project Assignment**.
 
 ---
 
-## 📁 Project Structure
-
-stock_etl_project/
-│
-├── raw_data/ ← Raw JSON stock data saved here
-├── config.py ← Stores API key & settings
-├── database.py ← DB setup & insert functions
-├── etl_pipeline.py ← Main ETL logic
-├── models.py ← Pydantic schemas (optional)
-├── scheduler.py ← Daily scheduler (optional)
-├── stock_data.db ← SQLite DB (auto-created)
-└── README.md
-
----
-
 ## 🧪 ETL Workflow
 
 ### 🔹 Extract
